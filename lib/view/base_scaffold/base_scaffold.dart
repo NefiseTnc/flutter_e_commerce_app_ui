@@ -15,7 +15,7 @@ class BaseScaffold extends StatefulWidget {
 
 class _BaseScaffoldState extends State<BaseScaffold> {
   List pages = [
-    HomePage(),
+    const HomePage(),
     const CartPage(),
     const UserPage(),
   ];
