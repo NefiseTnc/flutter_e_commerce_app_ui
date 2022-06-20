@@ -117,3 +117,36 @@ final List<Color> colorList = [
   Colors.purple,
   const Color(0xFF33427D),
 ];
+
+final List<ProductModel> cartList = [
+  ProductModel(
+      title: 'Tag Heuer Wristwatch',
+      description: 'description',
+      price: 1100,
+      imagePath: AppImagePaths.imCart1),
+  ProductModel(
+      title: 'BeoPlay Speaker',
+      description: 'description',
+      price: 450,
+      imagePath: AppImagePaths.imCart2),
+  ProductModel(
+      title: 'Electric Kettle',
+      description: 'description',
+      price: 95,
+      imagePath: AppImagePaths.imCart3),
+  ProductModel(
+      title: 'Bang & Olufsen Case',
+      description: 'description',
+      price: 1200,
+      imagePath: AppImagePaths.imCart4),
+  ProductModel(
+      title: 'Smart Home Speaker',
+      description: 'description',
+      price: 1100,
+      imagePath: AppImagePaths.imCart5),
+  ProductModel(
+      title: 'BackPack',
+      description: 'description',
+      price: 210,
+      imagePath: AppImagePaths.imCart6),
+];

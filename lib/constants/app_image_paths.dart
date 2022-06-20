@@ -30,4 +30,15 @@ class AppImagePaths {
   static const String imProductDetails = 'assets/images/im_product_detail.png';
   static const String imAvatar1 = 'assets/images/im_avatar1.png';
   static const String imAvatar2 = 'assets/images/im_avatar2.png';
+
+
+  //cart page images
+  static const String imCart1 = 'assets/images/im_cart1.png';
+  static const String imCart2 = 'assets/images/im_cart2.png';
+  static const String imCart3 = 'assets/images/im_cart3.png';
+  static const String imCart4 = 'assets/images/im_cart4.png';
+  static const String imCart5 = 'assets/images/im_cart5.png';
+  static const String imCart6 = 'assets/images/im_cart6.png';
+
+
 }
