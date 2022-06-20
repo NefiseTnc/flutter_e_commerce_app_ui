@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_e_commerce_app/view/product_details/product_details_page.dart';
 import 'package:flutter_e_commerce_app/view/product_list/product_list_page.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
@@ -188,8 +189,17 @@ class HomePage extends StatelessWidget {
             scrollDirection: Axis.horizontal,
             itemCount: productList.length,
             itemBuilder: (context, index) {
-              return ProductItemWidget(
-                model: productList[index],
+              return InkWell(
+                onTap: () {
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => const ProductDetailsPage(),
+                      ));
+                },
+                child: ProductItemWidget(
+                  model: productList[index],
+                ),
               );
             },
           ),

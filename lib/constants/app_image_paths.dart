@@ -25,4 +25,9 @@ class AppImagePaths {
   static const String imProduct2 = 'assets/images/im_product2.png';
   static const String imProduct3 = 'assets/images/im_product3.png';
   static const String imProduct4 = 'assets/images/im_product4.png';
+
+  //product detail pages  images
+  static const String imProductDetails = 'assets/images/im_product_detail.png';
+  static const String imAvatar1 = 'assets/images/im_avatar1.png';
+  static const String imAvatar2 = 'assets/images/im_avatar2.png';
 }

@@ -1,3 +1,4 @@
+import 'package:flutter/material.dart';
 import '../../model/brand_model.dart';
 import '../../model/product_model.dart';
 import '../app_image_paths.dart';
@@ -104,3 +105,15 @@ final List<ProductModel> recommendedList = [
 
 //product_list data
 final List productCategories = ['All', 'Headphones', 'Speakers', 'Microphones'];
+
+//product details page datas
+final List<String> sizeList = ['XS', 'S', 'M', 'L', 'XL', '2XL', '3XL'];
+final List<Color> colorList = [
+  Colors.black,
+  Colors.blueAccent.shade700,
+  Colors.amber,
+  Colors.pink,
+  Colors.teal,
+  Colors.purple,
+  const Color(0xFF33427D),
+];
